@@ -1,1 +1,4 @@
 output/*
+build/*
+build/src/*
+build/src/initpost

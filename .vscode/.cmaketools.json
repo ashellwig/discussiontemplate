@@ -1,0 +1,61 @@
+{
+  "variant": {
+    "label": "RelWithDebInfo",
+    "keywordSettings": {
+      "buildType": "reldeb"
+    },
+    "description": "Perform optimizations AND include debugging information"
+  },
+  "activeEnvironments": [],
+  "codeModel": {
+    "configurations": [
+      {
+        "name": "RelWithDebInfo",
+        "projects": [
+          {
+            "buildDirectory": "/home/ahellwig/Documents/School/CSC160/Discussions/Module2/Programming/InitPost/build",
+            "name": "initpost",
+            "sourceDirectory": "/home/ahellwig/Documents/School/CSC160/Discussions/Module2/Programming/InitPost",
+            "targets": [
+              {
+                "artifacts": [
+                  "/home/ahellwig/Documents/School/CSC160/Discussions/Module2/Programming/InitPost/build/src/initpost"
+                ],
+                "buildDirectory": "/home/ahellwig/Documents/School/CSC160/Discussions/Module2/Programming/InitPost/build/src",
+                "fileGroups": [
+                  {
+                    "compileFlags": "-Wall -std=c++17 -Weverything -fdiagnostics-format=clang -O2 -DNDEBUG -std=c++17 -Weverything -glldb -fcolor-diagnostics -fcaret-diagnostics -fdiagnostics-format=clang  ",
+                    "includePath": [
+                      {
+                        "path": "/home/ahellwig/Documents/School/CSC160/Discussions/Module2/Programming/InitPost/../include"
+                      },
+                      {
+                        "path": "/home/ahellwig/Documents/School/CSC160/Discussions/Module2/Programming/InitPost/src/../include"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "CXX",
+                    "sources": [
+                      "main.cpp",
+                      "GenFuncs.cpp"
+                    ]
+                  }
+                ],
+                "fullName": "initpost",
+                "linkFlags": "-rdynamic",
+                "linkLanguageFlags": "-Wall -std=c++17 -Weverything -fdiagnostics-format=clang -O2 -DNDEBUG -std=c++17 -Weverything -glldb -fcolor-diagnostics -fcaret-diagnostics -fdiagnostics-format=clang",
+                "linkerLanguage": "CXX",
+                "name": "initpost",
+                "sourceDirectory": "/home/ahellwig/Documents/School/CSC160/Discussions/Module2/Programming/InitPost/src",
+                "type": "EXECUTABLE"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cookie": "0.01083502604866693",
+    "inReplyTo": "codemodel",
+    "type": "reply"
+  }
+}
