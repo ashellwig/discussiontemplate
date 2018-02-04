@@ -46,10 +46,7 @@
                 "-I",
                 "./include"
             ],
-            "group": {
-                "kind": "build",
-                "isDefault": false
-            },
+            "group": "build",
             "problemMatcher": [
                 "$gcc"
             ]
