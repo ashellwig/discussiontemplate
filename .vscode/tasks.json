@@ -8,9 +8,11 @@
             "type": "shell",
             "command": "clang++",
             "args": [
+                "-std=c++17",
                 "-o",
                 "./output/initpost-debug",
                 "-Weverything",
+                "-glldb",
                 "-fcolor-diagnostics",
                 "-fcaret-diagnostics",
                 "-fdiagnostics-format=clang",
@@ -22,7 +24,34 @@
             "group": {
                 "kind": "build",
                 "isDefault": true
-            }
+            },
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "label": "build-release",
+            "type": "shell",
+            "command": "clang++",
+            "args": [
+                "-std=c++17",
+                "-o",
+                "./output/initpost-release",
+                "-Weverything",
+                "-fcolor-diagnostics",
+                "-fcaret-diagnostics",
+                "-fdiagnostics-format=clang",
+                "./src/main.cpp",
+                "./src/GenFuncs.cpp",
+                "-I",
+                "./include"
+            ],
+            "group": {
+                "kind": "build"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ]
         }
     ]
 }
