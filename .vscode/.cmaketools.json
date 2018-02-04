@@ -24,7 +24,7 @@
                 "buildDirectory": "/home/ahellwig/Documents/School/CSC160/Discussions/Module2/Programming/InitPost/build/src",
                 "fileGroups": [
                   {
-                    "compileFlags": "-Wall -std=c++17 -Weverything -fdiagnostics-format=clang -O2 -DNDEBUG -std=c++17 -Weverything -glldb -fcolor-diagnostics -fcaret-diagnostics -fdiagnostics-format=clang  ",
+                    "compileFlags": "-Wall -std=c++17 -Weverything -fdiagnostics-format=clang -O2 -std=c++17 -Weverything -glldb -fcolor-diagnostics -fcaret-diagnostics -fdiagnostics-format=clang  ",
                     "includePath": [
                       {
                         "path": "/home/ahellwig/Documents/School/CSC160/Discussions/Module2/Programming/InitPost/../include"
@@ -43,7 +43,7 @@
                 ],
                 "fullName": "initpost",
                 "linkFlags": "-rdynamic",
-                "linkLanguageFlags": "-Wall -std=c++17 -Weverything -fdiagnostics-format=clang -O2 -DNDEBUG -std=c++17 -Weverything -glldb -fcolor-diagnostics -fcaret-diagnostics -fdiagnostics-format=clang",
+                "linkLanguageFlags": "-Wall -std=c++17 -Weverything -fdiagnostics-format=clang -O2 -std=c++17 -Weverything -glldb -fcolor-diagnostics -fcaret-diagnostics -fdiagnostics-format=clang",
                 "linkerLanguage": "CXX",
                 "name": "initpost",
                 "sourceDirectory": "/home/ahellwig/Documents/School/CSC160/Discussions/Module2/Programming/InitPost/src",
@@ -54,7 +54,7 @@
         ]
       }
     ],
-    "cookie": "0.01083502604866693",
+    "cookie": "0.8240573637098634",
     "inReplyTo": "codemodel",
     "type": "reply"
   }
