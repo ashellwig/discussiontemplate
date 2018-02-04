@@ -24,11 +24,14 @@
                 "buildDirectory": "/home/ahellwig/Documents/School/CSC160/Discussions/Module2/Programming/InitPost/build/src",
                 "fileGroups": [
                   {
+                    "isGenerated": false,
+                    "sources": [
+                      "../include/GenFuncs.h"
+                    ]
+                  },
+                  {
                     "compileFlags": "-Wall -std=c++17 -Weverything -fdiagnostics-format=clang -O2 -std=c++17 -Weverything -glldb -fcolor-diagnostics -fcaret-diagnostics -fdiagnostics-format=clang  ",
                     "includePath": [
-                      {
-                        "path": "/home/ahellwig/Documents/School/CSC160/Discussions/Module2/Programming/InitPost/../include"
-                      },
                       {
                         "path": "/home/ahellwig/Documents/School/CSC160/Discussions/Module2/Programming/InitPost/src/../include"
                       }
@@ -54,7 +57,7 @@
         ]
       }
     ],
-    "cookie": "0.8240573637098634",
+    "cookie": "0.7804390192891744",
     "inReplyTo": "codemodel",
     "type": "reply"
   }

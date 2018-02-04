@@ -47,12 +47,6 @@
 		"clang-format.style": "LLVM",
 		"C_Cpp.formatting": "Default",
 		"clang.executable": "clang++",
-		"C_Cpp.clang_format_style": "file",
-		"clang.cxxflags": [
-			"-Weverything",
-			"-fcolor-diagnostics",
-			"-fcaret-diagnostics",
-			"-fdiagnostics-format=clang"
-		]
+		"C_Cpp.clang_format_style": "file"
 	}
 }
